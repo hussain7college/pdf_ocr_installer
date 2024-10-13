@@ -1,4 +1,4 @@
-# PDF OCR Frontend made with React
+# PDF OCR
 
 This is the installer of the PDF OCR project, It allows users to upload a PDF file and receive the extracted text using a frontend service build with React JS, and backend service powered by Flask and Tesseract OCR.
 
@@ -17,9 +17,7 @@ For the backend part of this project, please visit [PDF OCR Backend](https://git
 - [Tesseract](https://github.com/UB-Mannheim/tesseract/releases/download/v5.4.0.20240606/tesseract-ocr-w64-setup-5.4.0.20240606.exe).
 
 3. Run the `install.bat` file located at the root of the project to install dependencies.
-
 4. open the shortcut created on the desktop to start the application, or run the `start.bat` file located at the root of the project.
-
 5. Once the application is running, visit `http://localhost:1111` to interact with the frontend.
 
 ## Contact
