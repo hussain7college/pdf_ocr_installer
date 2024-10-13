@@ -2,7 +2,7 @@
 setlocal
 
 :: Set the name for the shortcut
-set shortcutName=RunShortcut
+set shortcutName=PDF OCR
 set shortcutPath=%USERPROFILE%\Desktop\%shortcutName%.lnk
 
 :: Get the current directory (where the script is running)
