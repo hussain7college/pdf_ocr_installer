@@ -13,6 +13,6 @@ set targetPath=%currentDir%run.bat
 set iconPath=%currentDir%favicon.ico
 
 :: Create the shortcut
-powershell "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('%shortcutPath%'); $s.TargetPath = '%targetPath%'; $s.IconLocation = '%iconPath%'; $s.Save()"
+powershell "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('%shortcutPath%'); $s.TargetPath = '%targetPath%'; $s.IconLocation = '%iconPath%'; $s.WorkingDirectory = '%currentDir%'; $s.Save()"
 
 endlocal

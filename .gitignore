@@ -1,0 +1,8 @@
+pdf_ocr_backend/__pycache__/
+pdf_ocr_backend/done/
+pdf_ocr_backend/outputs/
+pdf_ocr_backend/uploads/
+pdf_ocr_backend/debug/
+pdf_ocr_backend/venv/
+
+pdf_ocr_frontend/node_modules/

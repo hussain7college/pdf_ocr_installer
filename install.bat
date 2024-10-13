@@ -19,4 +19,7 @@ cd ..\pdf_ocr_backend
 call .\install.bat
 
 echo ✨ creating shortcut... ✨
+cd ..
 call .\create_shortcut.bat
+
+pause
