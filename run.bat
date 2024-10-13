@@ -1,4 +1,14 @@
 @echo off
+:: check if pdf_ocr_backend and pdf_ocr_frontend folders exist
+if not exist pdf_ocr_backend (
+    echo 🚨 pdf_ocr_backend folder not found
+    echo 🚨 Please run install.bat first
+    exit /b  
+)else if not exist pdf_ocr_frontend (
+    echo 🚨 pdf_ocr_frontend folder not found
+    echo 🚨 Please run install.bat first
+    exit /b  
+)
 
 echo 🚀 Running Backend Server...
 start "Backend Server" powershell -WindowStyle Hidden -Command "cd ./pdf_ocr_backend; ./run.bat"
