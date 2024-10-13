@@ -17,3 +17,6 @@ call .\install.bat
 echo   💿 installing Backend...
 cd ..\pdf_ocr_backend
 call .\install.bat
+
+echo ✨ creating shortcut... ✨
+call .\create_shortcut.bat
